@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quick-Gift</title>
-    <link rel="icon" href="/img/favicon-256x256-removebg-preview.png" type="image/x-icon">
+    <title>Sticky Store</title>
+    <link rel="icon" href="/img/note-sticky-solid-full.svg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Asap+Sharp:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
     <header>
-        <div><a href="./index.html"><img src="/img/logo.png" width="200" alt="Logo de la tienda"></a></div>
-        <h1>Inicio</h1>
-        <nav>
+        <div class="div-logo"><a class="logo" href="./index.html">LOGO</a></div>
+        <nav class="header-nav">
             <ul>
                 <li><a href="/index.html">Inicio</a></li>
                 <li><a href="./pages/carrito.html">Carrito</a></li>
@@ -20,8 +21,75 @@
         </nav>
     </header>
     <main>
+        <section class="inicio">
+            <h1>Bienvenida a la tienda</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt doloremque natus debitis velit rem vitae nisi ducimus ipsa odio repudiandae voluptate ad consequatur, reprehenderit asperiores molestias, eligendi, eveniet laborum. Eius!</p>
+        </section>
 
+        <section>
+            <h2 class="titulo-productos text-secondary">Nuestros productos</h2>
+            <div class="card-container">
+                <article class="card text-dark">
+                    <img src="./img/Scalonetax3.jpg" alt="Producto 1: Sticker gatito">
+                    <h3>Sticker Disociating</h3>
+                    <p>$200</p>
+                    <button class="btn bg-secondary text-dark">
+                        Agregar al carrito
+                    </button>
+                </article>
+
+                <article class="card text-dark">
+                    <img src="./img/Malvinas.jpg" alt="Producto 2: Abrazo con Messi">
+                    <h3>Sticker abrazo con Messi</h3>
+                    <p>$200</p>
+                    <button class="btn bg-secondary text-dark">
+                        Agregar al carrito
+                    </button>
+                </article>
+
+                <article class="card text-dark">
+                    <img src="./img/Enzo-Fernandez.jpg" alt="Producto 3">
+                    <h3>Sticker Ruta 40</h3>
+                    <p>$120</p>
+                    <button class="btn bg-secondary text-dark">
+                        Agregar al carrito
+                    </button>
+                </article>
+                <article class="card text-dark">
+                    <img src="./img/sello-argentina.avif" alt="Producto 4">
+                    <h3>Sticker de Catamarca</h3>
+                    <p>$120</p>
+                    <button class="btn bg-secondary text-dark">
+                        Agregar al carrito
+                    </button>
+                </article>
+                <article class="card text-dark">
+                    <img src="./img/Dissociating.jpg" alt="Producto 5">
+                    <h3>Sticker de Scaloneta Ruta 10</h3>
+                    <p>$120</p>
+                    <button class="btn bg-secondary text-dark">
+                        Agregar al carrito
+                    </button>
+                </article>
+                <article class="card text-dark">
+                    <img src="./img/Peer-cat.jpg" alt="Producto 6">
+                    <h3>Sticker de hamster</h3>
+                    <p>$130</p>
+                    <button class="btn bg-secondary text-dark">
+                        Agregar al carrito
+                    </button>
+                </article>
+
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <p>Sitio realizado por Martina para Talento Tech</p>
+        <nav>
+            <ul class="footer-list">
+                <li><img src="../img/whatsapp-brands-solid-full.svg" alt="Logo Whatsapp"><img src="../img/instagram-brands-solid-full.svg" alt="Logo Instagram"></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
