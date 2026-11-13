@@ -14,7 +14,7 @@
         <nav class="header-nav">
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./carrito.html">Carrito</a></li>
+                <li><a href="./carrito.html"><span id="contador-carrito"></span>Carrito</a></li>
                 <li><a href="./contacto.html">Contacto</a></li>
                 <li><a href="./nosotros.html">Nosotros</a></li>
             </ul>
@@ -22,14 +22,25 @@
     </header>
     <main>
         <h1 class="titulo-contacto text-secondary">Carrito</h1>
+        <section id="carrito-container" class="card-container">
+            <!-- Productos del carrito -->
+        </section>
+        <div id="acciones-carrito" class="acciones-carrito">
+            <!-- Botones de eliminar y finalizar compra -->
+        </div>
+        <section id="resumen-carrito">
+            <!-- Resumen del carrito, productos agregados -->
+        </section>
     </main>
     <footer>
-        <p>Sitio realizado por Martina para Talento Tech</p>
+        <p>Sitio realizado por Mar</p>
+        <p>&copy; creado para Talento Tech | 2026</p>
         <nav>
             <ul class="footer-list">
                 <li><img src="../img/whatsapp-brands-solid-full.svg" alt="Logo Whatsapp"><img src="../img/instagram-brands-solid-full.svg" alt="Logo Instagram"></li>
             </ul>
         </nav>
     </footer>
+    <script src="../js/carrito.js" type="module"></script>
 </body>
 </html>

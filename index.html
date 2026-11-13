@@ -14,13 +14,13 @@
         <nav class="header-nav">
             <ul>
                 <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./pages/carrito.html">Carrito</a></li>
+                <li><a href="./pages/carrito.html"><span id="contador-carrito"></span>Carrito</a></li>
                 <li><a href="./pages/contacto.html">Contacto</a></li>
                 <li><a href="./pages/nosotros.html">Nosotros</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="main-productos">
         <section class="inicio">
             <h1>Bienvenida a la tienda</h1>
             <p>Tienda de stickers para proyecto final de curso de FrontEnd JS de Talento Tech. Esto no es una tienda oficial, sólo es un proyecto</p>
@@ -28,8 +28,8 @@
 
         <section>
             <h2 class="titulo-productos text-secondary">Nuestros productos</h2>
-            <div class="card-container">
-                <article class="card text-dark">
+            <div id="card-container" class="card-container">
+                <!-- <article class="card text-dark">
                     <img src="./img/Scalonetax3.jpg" alt="Producto 1: Sticker Scaloneta">
                     <h3>Sticker de Scaloneta</h3>
                     <p>$200</p>
@@ -78,18 +78,20 @@
                     <button class="btn bg-secondary text-dark">
                         Agregar al carrito
                     </button>
-                </article>
+                </article> -->
 
             </div>
         </section>
     </main>
     <footer>
-        <p>Sitio realizado por Martina para Talento Tech</p>
+        <p>Sitio realizado por Mar</p>
+        <p>&copy; creado para Talento Tech | 2026</p>
         <nav>
             <ul class="footer-list">
                 <li><img src="../img/whatsapp-brands-solid-full.svg" alt="Logo Whatsapp"><img src="../img/instagram-brands-solid-full.svg" alt="Logo Instagram"></li>
             </ul>
         </nav>
     </footer>
+    <script src="./js/index.js" type="module"></script>
 </body>
 </html>
