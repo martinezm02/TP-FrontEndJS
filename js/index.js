@@ -1,23 +1,27 @@
-import { agregarAlCarrito } from "./funcionesCarrito";
-import { productos } from "./provisorio.js";
-import { obtenerCarrito } from "./storage";
-import { actualizarContador } from "./ui";
+import { agregarAlCarrito } from "./funcionesCarrito.js";
+import { obtenerCarrito } from "./storage.js";
+import { actualizarContador } from "./ui.js";
 
 const renderizarProductos = () => {
-    const contenedor = document.getElementById("card.container");
+    fetch("/data/products.json")
+    .then(response =>{
+    return response.json();})
+    .then(productos => {
+    console.log(productos);
+    const contenedor = document.getElementById("card-container");
     productos.forEach((producto) => {
         const tarjeta = document.createElement("article");
         tarjeta.classList.add("card", "text-dark");
 
-        const img = document.createElement("img");
-        img.src = `./${producto.img}`;
-        img.alt = producto.nombre;
+        const image = document.createElement("img");
+        image.src = `./${producto.image}`;
+        image.alt = producto.title;
 
-        const titulo = document.createElement("h3");
-        titulo.textContent = producto.nombre;
+        const title = document.createElement("h3");
+        title.textContent = producto.title;
 
-        const precio = document.createElement("p");
-        precio.textContent = `$${producto.precio}`;
+        const price = document.createElement("p");
+        price.textContent = `$${producto.price}`;
 
         const boton = document.createElement("button");
         boton.classList.add("btn", "bg-secondary", "text-dark");
@@ -26,18 +30,24 @@ const renderizarProductos = () => {
         boton.addEventListener("click", () => {agregarAlCarrito(producto)});
 
         //Armar tarjeta
-        tarjeta.appendChild(img);
-        tarjeta.appendChild(titulo);
-        tarjeta.appendChild(precio);
+        tarjeta.appendChild(image);
+        tarjeta.appendChild(title);
+        tarjeta.appendChild(price);
         tarjeta.appendChild(boton);
 
         //Agregar al contenedor
         contenedor.appendChild(tarjeta);
     });
+})
+.catch(error => {
+    console.error('Error: ', error);
+    alert("Error al obtener los productos");
+})
 };
 
-document.addEventListener("DOM/ContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
     const carrito = obtenerCarrito();
     renderizarProductos();
-    actualizarContador(carrito);
+    // actualizarContador(carrito);
 })
+

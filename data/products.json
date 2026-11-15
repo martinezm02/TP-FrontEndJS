@@ -1,0 +1,180 @@
+[{
+    "id": 1,
+    "title": "Sticker Enzo Fernandez",
+    "description": "Sticker fondo blanco de Enzo Fernandez",
+    "price": 100,
+    "image": "img/Enzo-Fernandez.jpg",
+    "category": "deportes"
+},
+{
+    "id": 2,
+    "title": "Sticker Scaloneta",
+    "description": "Sticker fondo blanco de la Scaloneta",
+    "price": 150,
+    "image": "img/Scalonetax3.jpg",
+    "category": "deportes"
+},
+{
+    "id": 3,
+    "title": "Sticker Malvinas",
+    "description": "Sticker fondo blanco de Malvinas",
+    "price": 100,
+    "image": "img/Malvinas.jpg",
+    "category": "argentina"
+},
+{
+    "id": 4,
+    "title": "Sticker Gato",
+    "description": "Sticker fondo blanco de Peer Cat",
+    "price": 100,
+    "image": "img/Peer-cat.jpg",
+    "category": "animales"
+},
+{
+    "id": 5,
+    "title": "Sticker Sello Argentina",
+    "description": "Sticker fondo blanco de Sello de Argentina",
+    "price": 100,
+    "image": "img/sello-argentina.avif",
+    "category": "argentina"
+},
+{
+    "id": 6,
+    "title": "Sticker Dissociating",
+    "description": "Sticker fondo blanco de Gato Dissociating",
+    "price": 100,
+    "image": "img/Dissociating.jpg",
+    "category": "animales"
+},
+{
+    "id": 7,
+    "title": "Sticker Araña Julián",
+    "description": "Sticker fondo blanco de Julián Álvarez Araña",
+    "price": 100,
+    "image": "img/arania-julian.jpg",
+    "category": "deportes"
+},
+{
+    "id": 8,
+    "title": "Sticker Arirang Order",
+    "description": "Sticker fondo blanco de Arirang Order Music",
+    "price": 100,
+    "image": "img/arirang-order.jpg",
+    "category": "musica"
+},
+{
+    "id": 9,
+    "title": "Sticker Colapinto",
+    "description": "Sticker fondo blanco de Colapinto",
+    "price": 100,
+    "image": "img/colapinto.jpg",
+    "category": "deportes"
+},
+{
+    "id": 10,
+    "title": "Sticker Auto de Colapinto",
+    "description": "Sticker fondo blanco del auto de Colapinto",
+    "price": 100,
+    "image": "img/auto-colapinto.jpg",
+    "category": "deportes"
+},
+{
+    "id": 11,
+    "title": "Sticker Gato Coca Cola",
+    "description": "Sticker fondo blanco de Gato con disfraz de Coca Cola",
+    "price": 100,
+    "image": "img/gato-coca.jpg",
+    "category": "animales"
+},
+{
+    "id": 12,
+    "title": "Sticker Dibu",
+    "description": "Sticker fondo blanco de Dibu atajando",
+    "price": 100,
+    "image": "img/dibu.jpg",
+    "category": "deportes"
+},
+{
+    "id": 13,
+    "title": "Sticker BTS World Tour",
+    "description": "Sticker fondo blanco de BTS World Tour ticket",
+    "price": 100,
+    "image": "img/bts-world-tour.png",
+    "category": "musica"
+},
+{
+    "id": 14,
+    "title": "Sticker Bombonera",
+    "description": "Sticker fondo blanco de la Bombonera Late",
+    "price": 100,
+    "image": "img/bombonera.jpg",
+    "category": "deportes"
+},
+{
+    "id": 15,
+    "title": "Sticker Hoseok Estampilla",
+    "description": "Sticker fondo blanco de estampilla de Hoseok",
+    "price": 100,
+    "image": "img/hoseok-estampilla.jpg",
+    "category": "musica"
+},
+{
+    "id": 16,
+    "title": "Sticker Hoseok",
+    "description": "Sticker fondo blanco de cara de Hoseok",
+    "price": 100,
+    "image": "img/hoseok.jpg",
+    "category": "musica"
+},
+{
+    "id": 17,
+    "title": "Sticker Jimin Estampilla",
+    "description": "Sticker fondo blanco de estampilla de Jimin",
+    "price": 100,
+    "image": "img/jimin-estampilla.jpg",
+    "category": "musica"
+},
+{
+    "id": 18,
+    "title": "Sticker Lali",
+    "description": "Sticker fondo blanco de Lali: Estoy Bien",
+    "price": 100,
+    "image": "img/lali-estoy-bien.jpg",
+    "category": "musica"
+},
+{
+    "id": 19,
+    "title": "Sticker Julian Alvarez",
+    "description": "Sticker fondo blanco de Julian Alvarez",
+    "price": 100,
+    "image": "img/julian-alvarez.jpg",
+    "category": "deportes"
+},
+{
+    "id": 20,
+    "title": "Sticker Jin",
+    "description": "Sticker fondo blanco de Jin",
+    "price": 100,
+    "image": "img/jin.jpg",
+    "category": "musica"
+},
+{
+    "id": 21,
+    "title": "Sticker Jungkook Estampilla",
+    "description": "Sticker fondo blanco de estampilla de Jungkook",
+    "price": 100,
+    "image": "img/jungkook-estampilla.jpg",
+    "category": "musica"
+},
+{
+    "id": 22,
+    "title": "Sticker Jungkook",
+    "description": "Sticker fondo blanco de Jungkook",
+    "price": 100,
+    "image": "img/jungkook.png",
+    "category": "musica"
+}
+
+
+
+]
