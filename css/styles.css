@@ -91,7 +91,9 @@ h3 {
     font-size: 1.9rem;
     font-weight: 600;
     line-height: 1;
+    padding: 1.6rem;
     text-align: center;
+    
 }
 
 .btn {
@@ -100,6 +102,10 @@ h3 {
     font-weight: bold;
     padding: 1.6rem;
     border-radius: 1rem;
+}
+.btn-form {
+    display: block;
+    margin: 0 auto;
 }
 /* button de getcssscan.com*/
 .btn:disabled {
