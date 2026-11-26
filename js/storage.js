@@ -7,10 +7,11 @@ export const guardarCarrito = (carrito) => {
 };
 
 export const obtenerCarrito = () => {
-    //Convertir lo que venga del storage o nada
-    const carrito = JSON.parse(localStorage.getItem(KEY)) || [];
+    //Convertir lo que venga del storage o array vacio
+    return JSON.parse(localStorage.getItem(KEY)) || [];
 };
 
 export const vaciarCarritoStorage = () => {
+    //Eliminar los items de localstorage
     localStorage.removeItem(KEY);
 };

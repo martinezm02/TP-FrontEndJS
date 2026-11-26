@@ -1,5 +1,4 @@
-import { obtenerCarrito, vaciarCarritoStorage } from "./storage.js"
-import { guardarCarrito } from "./storage.js";
+import { obtenerCarrito, vaciarCarritoStorage, guardarCarrito, } from "./storage.js";
 import { actualizarContador, mostrarMensaje } from "./ui.js";
 
 export const agregarAlCarrito = (producto) => {
@@ -7,10 +6,10 @@ export const agregarAlCarrito = (producto) => {
 
     carrito.push(producto);
 
-    localStorage.guardarCarrito(carrito);
+    guardarCarrito(carrito);
 
     actualizarContador(carrito);
-    mostrarMensaje(`Producto ${producto.nombre} agregado exitosamente`);
+    mostrarMensaje(`Producto '${producto.title}' agregado exitosamente`);
 };
 
 export const eliminarProducto = (indice) => {
@@ -23,7 +22,10 @@ export const eliminarProducto = (indice) => {
 };
 
 export const vaciarCarrito = () => {
-    vaciarCarritoStorage();
-    actualizarContador([]);
-    mostrarMensaje("Carrito vaciado con éxito");
+    if(confirm("¿Estás seguro/a?")){
+        vaciarCarritoStorage();
+        actualizarContador([]);
+        mostrarMensaje("Carrito vaciado con éxito");
+        return;
+    }
 };
