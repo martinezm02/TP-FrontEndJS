@@ -14,7 +14,7 @@
         <nav class="header-nav">
             <ul>
                 <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./pages/carrito.html" class="carrito-icono">🛒<span id="contador-carrito"></span></a></li>
+                <li><a href="./pages/carrito.html" class="carrito-icono">Carrito <span id="contador-carrito" class="contador-carrito"></span></a></li>
                 <li><a href="./pages/contacto.html">Contacto</a></li>
                 <li><a href="./pages/nosotros.html">Nosotros</a></li>
             </ul>
@@ -24,6 +24,9 @@
         <section class="inicio">
             <h1>Bienvenida a la tienda</h1>
             <p>Tienda de stickers minorista "Sticky Store". Esto no es una tienda oficial, sólo es un proyecto</p>
+        </section>
+        <section>
+            <div class="filtro-categoria" id="filtro-categoria"></div>
         </section>
 
         <section>
@@ -41,6 +44,7 @@
             </ul>
         </nav>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="./js/index.js" type="module"></script>
 </body>
 </html>

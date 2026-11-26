@@ -123,6 +123,7 @@ h3 {
   box-shadow: none;
   transform: translateY(0);
 }
+
 /* -------------------------------------------------------------------------- */
 /*                                   COLORES                                  */
 /* -------------------------------------------------------------------------- */
@@ -146,6 +147,7 @@ h3 {
 .text-secondary {
     color:rgba(71, 41, 76, 0.9);
 }
+
 
 /* -------------------------------------------------------------------------- */
 /*                                    HOME                                    */
@@ -287,5 +289,60 @@ textarea, input {
         flex-direction: column;
     }
 }
+/* -------------------------------------------------------------------------- */
+/*                                    FILTRO                                   */
+/* -------------------------------------------------------------------------- */
 
+.filtro-categoria {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 0;
+}
 
+.filtro-select {
+    padding: 10px 16px;
+    color:rgba(83, 9, 100, 1);
+    background-color: #e7d5eb;
+    border: 2px solid #47294c;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                    CARRITO                                 */
+/* -------------------------------------------------------------------------- */
+
+.mensaje-carrito-vacio {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.acciones-carrito {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.contador-carrito {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffff;
+    color: #47294c;
+    font-size: 1.7rem;
+    min-width: 2.4rem;
+	height: 2.4rem;
+	padding: 0 0.6rem;
+	border-radius: 999px;      
+	margin-left: 0.6rem; 
+	vertical-align: middle;
+
+}
+
+.contador-carrito:empty {
+    display: none;
+}
