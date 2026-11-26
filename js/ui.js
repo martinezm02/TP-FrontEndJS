@@ -4,7 +4,7 @@
 export const actualizarContador = (carrito) => {
     const contador = document.getElementById("contador-carrito");
     if(contador){
-        contador.textContent = carrito.length || "";
+        contador.textContent = carrito.length || " ";
         //atributo cantidad si quiero agregar más de un producto, usar reduce
     }
 };

@@ -12,8 +12,6 @@ export const renderizarCarrito = () => {
     //Lineas para limpiar contenedor antes de renderizar tarjetas y botones
     contenedor.innerHTML = "";
     divAcciones.innerHTML = "";
-
-
     
 
-}
+};

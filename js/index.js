@@ -48,6 +48,6 @@ const renderizarProductos = () => {
 document.addEventListener("DOMContentLoaded", () => {
     const carrito = obtenerCarrito();
     renderizarProductos();
-    // actualizarContador(carrito);
+    actualizarContador(carrito);
 })
 
