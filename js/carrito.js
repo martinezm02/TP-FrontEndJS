@@ -7,7 +7,6 @@ export const renderizarCarrito = () => {
     actualizarContador(carrito);
 
     const contenedor = document.getElementById("carrito-container");
-    contenedor.classList.add("card-container");
 
     const divAcciones = document.getElementById("acciones-carrito");
     divAcciones.classList.add("acciones-carrito");
