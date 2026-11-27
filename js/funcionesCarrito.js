@@ -1,4 +1,4 @@
-import { renderizarCarrito } from "./carrito.js";
+
 import { obtenerCarrito, vaciarCarritoStorage, guardarCarrito, } from "./storage.js";
 import { actualizarContador, mostrarMensaje } from "./ui.js";
 
