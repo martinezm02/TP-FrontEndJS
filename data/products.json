@@ -405,6 +405,17 @@
         "value": "musica",
         "text": "Música"
     }
+},
+{
+    "id": 38,
+    "title": "Sticker Jimin Estampilla",
+    "description": "Sticker fondo blanco de Estampilla de Jimin",
+    "price": 200,
+    "image": "img/jimin-estampilla.png",
+    "category": {
+        "value": "musica",
+        "text": "Música"
+    }
 }
 
 
