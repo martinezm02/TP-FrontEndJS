@@ -3,7 +3,7 @@ import { obtenerCarrito } from "./storage.js";
 import { actualizarContador, mostrarMensaje } from "./ui.js";
 
 const renderizarProductos = (categoria) => {
-    fetch("/data/products.json")
+    fetch("./data/products.json")
     .then(response =>{
     return response.json();})
     .then(productos => {
