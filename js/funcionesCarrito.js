@@ -19,7 +19,7 @@ export const eliminarProducto = (indice) => {
 
     guardarCarrito(carrito);
     actualizarContador(carrito);
-    mostrarMensaje("Producto eliminado con éxito", "Producto eliinado", "exito");
+    mostrarMensaje("Producto eliminado con éxito", "Producto eliminado", "exito");
 };
 
 export const vaciarCarrito = async () => {
